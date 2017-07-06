@@ -2,17 +2,18 @@
 <html>
 <head>
 <style>
-body {font-family: "Lato", sans-serif;}
+body {font-family: bookman old style;}
 
 /* Style the tab */
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: rgb(66, 149, 244);
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
+    font-family: georgia;
     background-color: inherit;
     float: left;
     border: none;
@@ -20,7 +21,7 @@ div.tab button {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 /* Change background color of buttons on hover */
@@ -52,19 +53,22 @@ div.tab button.active {
   <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
 </div>
 
-<div id="About Me" class="tabcontent">
-  <h3>Bio:</h3>
-  <p>17 year old high school student</p>
-</div>
-
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
   <p>My name is Elma. I like to code. I also Like other things that can be found on the About Me page!</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="About Me" class="tabcontent">
+  <h3>Bio:</h3>
+  <p>17 year old high school student</p>
+</div>
+
+<div id="Projects" class="tabcontent">
+  <h3>Scratch:</h3>
+  <h4>Side scroller:</h4>
+  <p>I created a side scrolling game with a partner.</p>
+  <h3>Python:</h3>
+  <h4>Choose your own adventure:</h4>
 </div>
 
 <script>
