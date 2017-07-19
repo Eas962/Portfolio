@@ -121,9 +121,39 @@
 
       <div id="Portfolio" class="tabcontent">
        <h4>AP Studio Art:</h4>
-       <img src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirShoeStillLife.jpg" alt="Mountain View" style="width:324px;height:126px;">
-       <img src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirWolfPrint.jpg" alt="Mountain View" style="width:258px;height:204px;">
+       <p>Click to enlarge the images.</p>
+                 <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+          <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+          <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+          </head>
+          <body>
 
+
+
+            <div id="pageone" data-role="main" class="ui-content">
+
+              <a href="#myPopup" data-rel="popup" data-position-to="window">
+              <img src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirShoeStillLife.jpg" alt="Mountain View" style="width:324px;height:126px;"></a>
+
+              <div data-role="popup" id="myPopup">
+                <p>This is my picture!</p> 
+                <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img 	src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirShoeStillLife.jpg" alt="Mountain View" style="width:811px;height:314px;">
+              </div>
+          </div>
+
+              <div id="pageone" data-role="main" class="ui-content">
+
+              <a href="#myPopup" data-rel="popup" data-position-to="window">
+              <img src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirWolfPrint.jpg" 		alt="Wolf Print" style="width:258px;height:204px;"></a>
+           <div data-role="popup" id="myPopup">
+                <p>This is my picture!</p> 
+                <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img 	src="https://raw.githubusercontent.com/Eas962/Portfolio/gh-pages/ElmaShishirWolfPrint.jpg" alt="Mountain View" style="width:811px;height:314px;">
+              </div>
+
+            </div>
+           
+           
    <script>
          function openCity(evt, cityName) {
              var i, tabcontent, tablinks;
